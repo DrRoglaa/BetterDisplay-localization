@@ -2,7 +2,7 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="BetterDisplay/Localizable/InfoPlist.xcstrings" source-language="en" target-language="ro" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0" build-num="17A5241o"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" translate="no" xml:space="preserve">
@@ -31,7 +31,7 @@
   </file>
   <file original="BetterDisplay/Localizable/Localizable.xcstrings" source-language="en" target-language="ro" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0" build-num="17A5241o"/>
     </header>
     <body>
       <trans-unit id="" translate="no" xml:space="preserve">
@@ -237,6 +237,10 @@
       <trans-unit id="%@ is unable to detect any display. This might indicate an application or system error." xml:space="preserve">
         <source>%@ is unable to detect any display. This might indicate an application or system error.</source>
         <target state="translated">%@ nu poate detecta niciun ecran. Acest lucru ar putea indica o eroare a aplicației sau a sistemului.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@ nits" xml:space="preserve">
+        <source>%@ nits</source>
         <note/>
       </trans-unit>
       <trans-unit id="%@ pixels HiDPI (%@ pixels LoDPI)" xml:space="preserve">
@@ -1736,11 +1740,6 @@ Specificarea lungimii de citire este opțională - lăsați câmpul gol pentru d
         <target state="translated">Afișează în mod succint iconița Dock la pornire</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Briefly show an upward (XDR/HDR upscaling) or downward (software dimming) pointing icon in the OSD when extra dimming or brightness upscaling is happening via software adjustments." xml:space="preserve">
-        <source>Briefly show an upward (XDR/HDR upscaling) or downward (software dimming) pointing icon in the OSD when extra dimming or brightness upscaling is happening via software adjustments.</source>
-        <target state="translated">Afișați pe scurt un icon cu săgeată orientată în sus (pentru scalare XDR/HDR) sau în jos (pentru întunecare software) în OSD atunci când se întâmplă o întunecare suplimentară sau o scalare a luminozității prin ajustări software.</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Brighten Displays" xml:space="preserve">
         <source>Brighten Displays</source>
         <target state="translated">Creste luminozitatea ecranelor​</target>
@@ -1761,14 +1760,14 @@ Specificarea lungimii de citire este opțională - lăsați câmpul gol pentru d
         <target state="translated">Luminozitate (Combinată)</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Brightness (Combined, Metal Upscaling)" xml:space="preserve">
-        <source>Brightness (Combined, Metal Upscaling)</source>
-        <target state="translated">Luminozitate (Combinată, UpScaling cu Metal)</target>
+      <trans-unit id="Brightness (Combined, Metal)" xml:space="preserve">
+        <source>Brightness (Combined, Metal)</source>
+        <target state="translated">Luminozitate (Combinată, Metal)</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Brightness (Combined, Software Upscaling)" xml:space="preserve">
-        <source>Brightness (Combined, Software Upscaling)</source>
-        <target state="translated">Luminozitate (Combinată, Scalare Software)</target>
+      <trans-unit id="Brightness (Combined, Upscaling)" xml:space="preserve">
+        <source>Brightness (Combined, Upscaling)</source>
+        <target state="translated">Luminozitate (Combinată, Scalare)</target>
         <note/>
       </trans-unit>
       <trans-unit id="Brightness (Hardware)" xml:space="preserve">
@@ -2621,8 +2620,8 @@ Specificarea lungimii de citire este opțională - lăsați câmpul gol pentru d
         <target state="translated">Rezoluția nativă curentă</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Current resolution (width x height) is shown as text inside when enabled." xml:space="preserve">
-        <source>Current resolution (width x height) is shown as text inside when enabled.</source>
+      <trans-unit id="Current resolution (width x height) is shown as text when enabled." xml:space="preserve">
+        <source>Current resolution (width x height) is shown as text when enabled.</source>
         <target state="translated">Rezoluția curentă (lățime x înălțime) este afișată ca text în interior când este activată.</target>
         <note/>
       </trans-unit>
@@ -3577,8 +3576,8 @@ Specificarea lungimii de citire este opțională - lăsați câmpul gol pentru d
         <target state="translated">Statusul ecranului</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Display the brightness level in nits on the brightness OSD icon for native XDR upscaling" xml:space="preserve">
-        <source>Display the brightness level in nits on the brightness OSD icon for native XDR upscaling</source>
+      <trans-unit id="Display the brightness level in nits on the brightness OSD for native XDR upscaling" xml:space="preserve">
+        <source>Display the brightness level in nits on the brightness OSD for native XDR upscaling</source>
         <target state="translated">Afișează nivelul de luminozitate în niți pe pictograma OSD de luminozitate pentru upscaling XDR nativ</target>
         <note/>
       </trans-unit>
@@ -3605,6 +3604,15 @@ Specificarea lungimii de citire este opțională - lăsați câmpul gol pentru d
       <trans-unit id="Displays And Virtual Screens" xml:space="preserve">
         <source>Displays And Virtual Screens</source>
         <target state="translated">Ecrane Fizice Si Virtuale</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Displays labels for sliders to help you quickly identify their function." xml:space="preserve">
+        <source>Displays labels for sliders to help you quickly identify their function.</source>
+        <target state="translated">Pentru identificarea mai ușoară a funcționalității cursorului.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Displays slider labels and their current values for easier identification and greater precision." xml:space="preserve">
+        <source>Displays slider labels and their current values for easier identification and greater precision.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Displays that were added to the list previously are shown even when not detected." xml:space="preserve">
@@ -4114,6 +4122,16 @@ The process does not work for the built-in display (reboot needed). The operatio
         <target state="translated">F14/F15 reprezintă Tastele Scroll Lock și Pause de pe tastaturile PC, tastele de luminozitate de pe unele tastaturi Logitech.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Factory Color Profile" xml:space="preserve">
+        <source>Factory Color Profile</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Factory color profiles are automatically created by the system whenever a display is connected. Over time, these profiles can accumulate.&#10;&#10;Removing them is safe—macOS will recreate any necessary profiles the next time the display is connected." xml:space="preserve">
+        <source>Factory color profiles are automatically created by the system whenever a display is connected. Over time, these profiles can accumulate.
+
+Removing them is safe—macOS will recreate any necessary profiles the next time the display is connected.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Failed" xml:space="preserve">
         <source>Failed</source>
         <target state="translated">Eșuat</target>
@@ -4192,11 +4210,6 @@ The process does not work for the built-in display (reboot needed). The operatio
       <trans-unit id="For controls that trigger a feature or functionality." xml:space="preserve">
         <source>For controls that trigger a feature or functionality.</source>
         <target state="translated">Pentru controalele care declanșează o caracteristică sau o funcționalitate.</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="For easier identification of slider functionality." xml:space="preserve">
-        <source>For easier identification of slider functionality.</source>
-        <target state="translated">Pentru identificarea mai ușoară a funcționalității cursorului.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Force support for color table adjustments" xml:space="preserve">
@@ -4404,8 +4417,8 @@ The process does not work for the built-in display (reboot needed). The operatio
         <target state="translated">Umbre difuze</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Grayscale Framebuffer" xml:space="preserve">
-        <source>Grayscale Framebuffer</source>
+      <trans-unit id="Grayscale Appearance" xml:space="preserve">
+        <source>Grayscale Appearance</source>
         <target state="translated">Framebuffer în tonuri de gri</target>
         <note/>
       </trans-unit>
@@ -4579,6 +4592,10 @@ The process does not work for the built-in display (reboot needed). The operatio
         <target state="translated">Ascunde Stream-ul</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Hide accessibility permission and licensing related warnings in the app menu." xml:space="preserve">
+        <source>Hide accessibility permission and licensing related warnings in the app menu.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Hide all full screen streams" xml:space="preserve">
         <source>Hide all full screen streams</source>
         <target state="translated">Ascunde toate stream-urile pe ecran complet</target>
@@ -4592,6 +4609,10 @@ The process does not work for the built-in display (reboot needed). The operatio
       <trans-unit id="Hide other unexpanded menu items" xml:space="preserve">
         <source>Hide other unexpanded menu items</source>
         <target state="translated">Ascunde celelalte elemente de meniu neextinse</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Hide warnings in the button bar" xml:space="preserve">
+        <source>Hide warnings in the button bar</source>
         <note/>
       </trans-unit>
       <trans-unit id="High Resolution (HiDPI)" xml:space="preserve">
@@ -4632,11 +4653,6 @@ The process does not work for the built-in display (reboot needed). The operatio
       <trans-unit id="Hold ⇧ Shift for multi-select. Unsafe modes are hidden." xml:space="preserve">
         <source>Hold ⇧ Shift for multi-select. Unsafe modes are hidden.</source>
         <target state="translated">țineți apăsată tasta ⇧ Shift pentru selecție multiplă. Modurile nesigure sunt ascunse.</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Hold ⌥ Option when opening this menu to measure refresh rate!" xml:space="preserve">
-        <source>Hold ⌥ Option when opening this menu to measure refresh rate!</source>
-        <target state="translated">Țineți apăsat ⌥ Option când deschideți acest meniu pentru a măsura rata de reîmprospătare!</target>
         <note/>
       </trans-unit>
       <trans-unit id="Horizontal" xml:space="preserve">
@@ -4983,13 +4999,13 @@ Nu toate ecranele acceptă operațiunile de alimentare DDC. Operațiunile de ali
         <target state="translated">Inversare culori</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Inverted Framebuffer" xml:space="preserve">
-        <source>Inverted Framebuffer</source>
+      <trans-unit id="Inverted Appearance" xml:space="preserve">
+        <source>Inverted Appearance</source>
         <target state="translated">Framebuffer Inversat</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Inverted Grayscale Framebuffer" xml:space="preserve">
-        <source>Inverted Grayscale Framebuffer</source>
+      <trans-unit id="Inverted Grayscale Appearance" xml:space="preserve">
+        <source>Inverted Grayscale Appearance</source>
         <target state="translated">Framebuffer Grayscale Inversat​</target>
         <note/>
       </trans-unit>
@@ -6094,6 +6110,10 @@ Nu toate ecranele acceptă operațiunile de alimentare DDC. Operațiunile de ali
         <target state="translated">Doar rezoluții care se potrivesc cu raportul nativ de aspect</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Open in ColorSync Utility" xml:space="preserve">
+        <source>Open in ColorSync Utility</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Opted-out" xml:space="preserve">
         <source>Opted-out</source>
         <target state="translated">Dezabonat</target>
@@ -6112,6 +6132,10 @@ Nu toate ecranele acceptă operațiunile de alimentare DDC. Operațiunile de ali
       <trans-unit id="Other Apple display" xml:space="preserve">
         <source>Other Apple display</source>
         <target state="translated">Alt Monitor Apple</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Other Color Profile" xml:space="preserve">
+        <source>Other Color Profile</source>
         <note/>
       </trans-unit>
       <trans-unit id="Overview" xml:space="preserve">
@@ -6594,6 +6618,10 @@ Nu toate ecranele acceptă operațiunile de alimentare DDC. Operațiunile de ali
         <target state="translated">Reconectați toate ecranele deconectate detectate la pornire. Ajută dacă un ecran este deconectat în mod accidental în caz de o cădere a aplicației sau închidere forțată.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Reconnect all remaining connected virtual screens after disconnecting one" xml:space="preserve">
+        <source>Reconnect all remaining connected virtual screens after disconnecting one</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Reconnect connected virtual screens" xml:space="preserve">
         <source>Reconnect connected virtual screens</source>
         <target state="translated">Reconectează ecranele virtuale conectate</target>
@@ -6739,6 +6767,10 @@ Nu toate ecranele acceptă operațiunile de alimentare DDC. Operațiunile de ali
         <target state="translated">Eliminați toate activările</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Remove All Factory Profiles" xml:space="preserve">
+        <source>Remove All Factory Profiles</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Remove Color Profiles" xml:space="preserve">
         <source>Remove Color Profiles</source>
         <target state="translated">Eliminați profilurile de culoare</target>
@@ -6747,6 +6779,10 @@ Nu toate ecranele acceptă operațiunile de alimentare DDC. Operațiunile de ali
       <trans-unit id="Remove Custom Feature" xml:space="preserve">
         <source>Remove Custom Feature</source>
         <target state="translated">Eliminați caracteristica personalizată</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Remove Factory Color Profiles" xml:space="preserve">
+        <source>Remove Factory Color Profiles</source>
         <note/>
       </trans-unit>
       <trans-unit id="Remove Factory Color Profiles?" xml:space="preserve">
@@ -7830,6 +7866,10 @@ Nu toate ecranele acceptă operațiunile de alimentare DDC. Operațiunile de ali
         <target state="translated">Afișează antetul atunci când este prezent doar un dispozitiv</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Show in Finder" xml:space="preserve">
+        <source>Show in Finder</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Show in the app menu" xml:space="preserve">
         <source>Show in the app menu</source>
         <target state="translated">Afișează în meniul aplicației</target>
@@ -7875,9 +7915,17 @@ Nu toate ecranele acceptă operațiunile de alimentare DDC. Operațiunile de ali
         <target state="translated">Afișează etichetele glisorului</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Show slider labels and values" xml:space="preserve">
+        <source>Show slider labels and values</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show slider markers only during knob adjustment" xml:space="preserve">
+        <source>Show slider markers only during knob adjustment</source>
+        <target state="translated">Afișează marcatoarele glisorului numai în timpul tragerii manetei</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Show slider markers only while dragging the knob" xml:space="preserve">
         <source>Show slider markers only while dragging the knob</source>
-        <target state="translated">Afișează marcatoarele glisorului numai în timpul tragerii manetei</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show subsliders for combined brightness control" xml:space="preserve">
@@ -7893,6 +7941,11 @@ Nu toate ecranele acceptă operațiunile de alimentare DDC. Operațiunile de ali
       <trans-unit id="Shows all displays previously detected by the app. Allows some configuration changes even when a display is offline." xml:space="preserve">
         <source>Shows all displays previously detected by the app. Allows some configuration changes even when a display is offline.</source>
         <target state="translated">Afișează toate ecranele detectate anterior de către aplicație. Permite unele modificări de configurare chiar și atunci când un ecran este deconectat.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Shows an upward (XDR/HDR upscaling) or downward (software dimming) pointing icon in the OSD when extra dimming or brightness upscaling is happening via software adjustments." xml:space="preserve">
+        <source>Shows an upward (XDR/HDR upscaling) or downward (software dimming) pointing icon in the OSD when extra dimming or brightness upscaling is happening via software adjustments.</source>
+        <target state="translated">Afișați pe scurt un icon cu săgeată orientată în sus (pentru scalare XDR/HDR) sau în jos (pentru întunecare software) în OSD atunci când se întâmplă o întunecare suplimentară sau o scalare a luminozității prin ajustări software.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Sidecar Configuration" xml:space="preserve">
@@ -8056,8 +8109,8 @@ Nu toate ecranele acceptă operațiunile de alimentare DDC. Operațiunile de ali
         <target state="translated">Specificați ce ar trebui să se întâmple când se apasă comutatorul on/off din meniul aplicației. Nu toate opțiunile pot fi valabile pentru ecran.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Standard Framebuffer" xml:space="preserve">
-        <source>Standard Framebuffer</source>
+      <trans-unit id="Standard Appearance" xml:space="preserve">
+        <source>Standard Appearance</source>
         <target state="translated">Framebuffer Standard</target>
         <note/>
       </trans-unit>
@@ -8282,6 +8335,10 @@ Nu toate ecranele acceptă operațiunile de alimentare DDC. Operațiunile de ali
       <trans-unit id="Synchronize value changes (delta) from sources to targets. This helps keep initial value differences between source and target (until minimum or maximum is reached). When this is disabled, absolute values are synced." xml:space="preserve">
         <source>Synchronize value changes (delta) from sources to targets. This helps keep initial value differences between source and target (until minimum or maximum is reached). When this is disabled, absolute values are synced.</source>
         <target state="translated">Sincronizează modificările de valoare (delta) de la surse către ținte. Acest lucru ajută la menținerea diferențelor inițiale de valoare între sursă și destinație (până când este atinsă valoarea minimă sau maximă). Atunci când aceasta este dezactivată, valorile absolute sunt sincronizate.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="System Color Profile" xml:space="preserve">
+        <source>System Color Profile</source>
         <note/>
       </trans-unit>
       <trans-unit id="System Colors" xml:space="preserve">
@@ -8699,6 +8756,10 @@ Please note that not all displays support DDC power operations and some displays
         <target state="translated">Aceasta opțiune s-ar putea să nu funcționeze corect cu toate ecranele (în special cele cu densitate scăzută de pixeli) și ar putea crea o rezoluție implicită LoDPI cu dublare de pixeli pe Mac-urile Intel.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="This might serve as a workaround for the stream/PIP confusion issue exhibited by some configurations when multiple virtual screens are connected." xml:space="preserve">
+        <source>This might serve as a workaround for the stream/PIP confusion issue exhibited by some configurations when multiple virtual screens are connected.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="This name is used by macOS system-wide." xml:space="preserve">
         <source>This name is used by macOS system-wide.</source>
         <target state="translated">Acest nume este folosit de macOS la nivel de sistem.</target>
@@ -8709,9 +8770,13 @@ Please note that not all displays support DDC power operations and some displays
         <target state="translated">Această operație va deconecta și reconecta toate ecranele virtuale conectate în prezent!</target>
         <note/>
       </trans-unit>
+      <trans-unit id="This provides a cleaner look when sliders are not in active use." xml:space="preserve">
+        <source>This provides a cleaner look when sliders are not in active use.</source>
+        <target state="translated">Acesta oferă un aspect mai bun atunci când cursorul nu este în uz activ.</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="This provides a cleaner look when the slider is not in active use." xml:space="preserve">
         <source>This provides a cleaner look when the slider is not in active use.</source>
-        <target state="translated">Acesta oferă un aspect mai bun atunci când cursorul nu este în uz activ.</target>
         <note/>
       </trans-unit>
       <trans-unit id="This resolution is used as default (as HiDPI if available) when the display is included in a new layout." xml:space="preserve">
@@ -9414,9 +9479,17 @@ You can dismiss this notification - in this case the changes will be applied whe
         <target state="translated">Folosiți zero pentru a dezactiva animația de tranziție.​</target>
         <note/>
       </trans-unit>
+      <trans-unit id="User Color Profile" xml:space="preserve">
+        <source>User Color Profile</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="VCP Code" xml:space="preserve">
         <source>VCP Code</source>
         <target state="translated">Cod VCP</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="VCP: 0x%@ parsed as: `%@`" xml:space="preserve">
+        <source>VCP: 0x%1$@ parsed as: `%2$@`</source>
         <note/>
       </trans-unit>
       <trans-unit id="VIRTUAL" xml:space="preserve">

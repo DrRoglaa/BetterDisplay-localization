@@ -2,7 +2,7 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="BetterDisplay/Localizable/InfoPlist.xcstrings" source-language="en" target-language="vi" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0" build-num="17A5241o"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" translate="no" xml:space="preserve">
@@ -30,7 +30,7 @@
   </file>
   <file original="BetterDisplay/Localizable/Localizable.xcstrings" source-language="en" target-language="vi" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0" build-num="17A5241o"/>
     </header>
     <body>
       <trans-unit id="" translate="no" xml:space="preserve">
@@ -233,6 +233,10 @@
       <trans-unit id="%@ is unable to detect any display. This might indicate an application or system error." xml:space="preserve">
         <source>%@ is unable to detect any display. This might indicate an application or system error.</source>
         <target state="translated">%@ không thể phát hiện được màn hình nào. Đây có thể là lỗi ứng dụng hoặc hệ thống.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@ nits" xml:space="preserve">
+        <source>%@ nits</source>
         <note/>
       </trans-unit>
       <trans-unit id="%@ pixels HiDPI (%@ pixels LoDPI)" xml:space="preserve">
@@ -1684,11 +1688,6 @@ Việc chỉ định chiều dài đọc là tùy chọn - để trống thườ
         <target state="translated">Hiển thị biểu tượng nhanh trên Dock khi khởi động ứng dụng</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Briefly show an upward (XDR/HDR upscaling) or downward (software dimming) pointing icon in the OSD when extra dimming or brightness upscaling is happening via software adjustments." xml:space="preserve">
-        <source>Briefly show an upward (XDR/HDR upscaling) or downward (software dimming) pointing icon in the OSD when extra dimming or brightness upscaling is happening via software adjustments.</source>
-        <target state="translated">Hiển thị một biểu tượng hướng lên (tăng cường XDR/HDR) hoặc hướng xuống (làm tối phần mềm) trong OSD khi có điều chỉnh thêm độ tối hoặc tăng cường độ sáng thông qua điều chỉnh phần mềm.</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Brighten Displays" xml:space="preserve">
         <source>Brighten Displays</source>
         <target state="translated">Tăng độ sáng màn hình</target>
@@ -1709,14 +1708,14 @@ Việc chỉ định chiều dài đọc là tùy chọn - để trống thườ
         <target state="translated">Độ sáng (Kết hợp)</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Brightness (Combined, Metal Upscaling)" xml:space="preserve">
-        <source>Brightness (Combined, Metal Upscaling)</source>
-        <target state="translated">Độ sáng (Kết hợp, Tăng cường Metal)</target>
+      <trans-unit id="Brightness (Combined, Metal)" xml:space="preserve">
+        <source>Brightness (Combined, Metal)</source>
+        <target state="translated">Độ sáng (Kết hợp, Metal)</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Brightness (Combined, Software Upscaling)" xml:space="preserve">
-        <source>Brightness (Combined, Software Upscaling)</source>
-        <target state="translated">Độ sáng (Kết hợp, Tăng cường qua phần mềm)</target>
+      <trans-unit id="Brightness (Combined, Upscaling)" xml:space="preserve">
+        <source>Brightness (Combined, Upscaling)</source>
+        <target state="translated">Độ sáng (Kết hợp, Tăng cường)</target>
         <note/>
       </trans-unit>
       <trans-unit id="Brightness (Hardware)" xml:space="preserve">
@@ -2535,8 +2534,8 @@ Việc chỉ định chiều dài đọc là tùy chọn - để trống thườ
         <target state="translated">Độ phân giải nguyên bản hiện tại</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Current resolution (width x height) is shown as text inside when enabled." xml:space="preserve">
-        <source>Current resolution (width x height) is shown as text inside when enabled.</source>
+      <trans-unit id="Current resolution (width x height) is shown as text when enabled." xml:space="preserve">
+        <source>Current resolution (width x height) is shown as text when enabled.</source>
         <target state="translated">Độ phân giải hiện tại (rộng x cao) được hiển thị dưới dạng văn bản bên trong khi được kích hoạt.</target>
         <note/>
       </trans-unit>
@@ -3467,8 +3466,8 @@ Việc chỉ định chiều dài đọc là tùy chọn - để trống thườ
         <target state="translated">Trạng thái màn hình</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Display the brightness level in nits on the brightness OSD icon for native XDR upscaling" xml:space="preserve">
-        <source>Display the brightness level in nits on the brightness OSD icon for native XDR upscaling</source>
+      <trans-unit id="Display the brightness level in nits on the brightness OSD for native XDR upscaling" xml:space="preserve">
+        <source>Display the brightness level in nits on the brightness OSD for native XDR upscaling</source>
         <target state="translated">Hiển thị mức độ sáng theo đơn vị nits trên biểu tượng OSD độ sáng cho việc tăng cường XDR tự nhiên</target>
         <note/>
       </trans-unit>
@@ -3495,6 +3494,15 @@ Việc chỉ định chiều dài đọc là tùy chọn - để trống thườ
       <trans-unit id="Displays And Virtual Screens" xml:space="preserve">
         <source>Displays And Virtual Screens</source>
         <target state="translated">Màn hình và Màn hình ảo</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Displays labels for sliders to help you quickly identify their function." xml:space="preserve">
+        <source>Displays labels for sliders to help you quickly identify their function.</source>
+        <target state="translated">Để dễ dàng nhận biết chức năng của thanh trượt.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Displays slider labels and their current values for easier identification and greater precision." xml:space="preserve">
+        <source>Displays slider labels and their current values for easier identification and greater precision.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Displays that were added to the list previously are shown even when not detected." xml:space="preserve">
@@ -3992,6 +4000,16 @@ Quá trình này không khả dụng cho màn hình tích hợp (cần khởi đ
         <target state="translated">F14/F15 tương đương với Scroll Lock và Pause trên bàn phím PC, còn trên một số bàn phím Logitech là điều chỉnh độ sáng.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Factory Color Profile" xml:space="preserve">
+        <source>Factory Color Profile</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Factory color profiles are automatically created by the system whenever a display is connected. Over time, these profiles can accumulate.&#10;&#10;Removing them is safe—macOS will recreate any necessary profiles the next time the display is connected." xml:space="preserve">
+        <source>Factory color profiles are automatically created by the system whenever a display is connected. Over time, these profiles can accumulate.
+
+Removing them is safe—macOS will recreate any necessary profiles the next time the display is connected.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Failed" xml:space="preserve">
         <source>Failed</source>
         <target state="translated">Thất bại</target>
@@ -4068,11 +4086,6 @@ Quá trình này không khả dụng cho màn hình tích hợp (cần khởi đ
       </trans-unit>
       <trans-unit id="For controls that trigger a feature or functionality." xml:space="preserve">
         <source>For controls that trigger a feature or functionality.</source>
-        <note/>
-      </trans-unit>
-      <trans-unit id="For easier identification of slider functionality." xml:space="preserve">
-        <source>For easier identification of slider functionality.</source>
-        <target state="translated">Để dễ dàng nhận biết chức năng của thanh trượt.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Force support for color table adjustments" xml:space="preserve">
@@ -4271,8 +4284,8 @@ Quá trình này không khả dụng cho màn hình tích hợp (cần khởi đ
         <source>Gloom</source>
         <note/>
       </trans-unit>
-      <trans-unit id="Grayscale Framebuffer" xml:space="preserve">
-        <source>Grayscale Framebuffer</source>
+      <trans-unit id="Grayscale Appearance" xml:space="preserve">
+        <source>Grayscale Appearance</source>
         <target state="translated">Khung hình trắng đen</target>
         <note/>
       </trans-unit>
@@ -4439,6 +4452,10 @@ Quá trình này không khả dụng cho màn hình tích hợp (cần khởi đ
         <target state="translated">Ẩn trình chiếu</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Hide accessibility permission and licensing related warnings in the app menu." xml:space="preserve">
+        <source>Hide accessibility permission and licensing related warnings in the app menu.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Hide all full screen streams" xml:space="preserve">
         <source>Hide all full screen streams</source>
         <target state="translated">Ẩn tất cả trình chiếu toàn màn hình</target>
@@ -4452,6 +4469,10 @@ Quá trình này không khả dụng cho màn hình tích hợp (cần khởi đ
       <trans-unit id="Hide other unexpanded menu items" xml:space="preserve">
         <source>Hide other unexpanded menu items</source>
         <target state="translated">Ẩn các mục menu chưa mở rộng khác</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Hide warnings in the button bar" xml:space="preserve">
+        <source>Hide warnings in the button bar</source>
         <note/>
       </trans-unit>
       <trans-unit id="High Resolution (HiDPI)" xml:space="preserve">
@@ -4827,13 +4848,13 @@ Không phải tất cả màn hình đều hỗ trợ các hoạt động nguồ
         <target state="translated">Đảo ngược màu</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Inverted Framebuffer" xml:space="preserve">
-        <source>Inverted Framebuffer</source>
+      <trans-unit id="Inverted Appearance" xml:space="preserve">
+        <source>Inverted Appearance</source>
         <target state="translated">Bộ đệm khung hình Nghịch đảo</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Inverted Grayscale Framebuffer" xml:space="preserve">
-        <source>Inverted Grayscale Framebuffer</source>
+      <trans-unit id="Inverted Grayscale Appearance" xml:space="preserve">
+        <source>Inverted Grayscale Appearance</source>
         <target state="translated">Bộ đệm khung hình Trắng đen Nghịch</target>
         <note/>
       </trans-unit>
@@ -5898,6 +5919,10 @@ Không phải tất cả màn hình đều hỗ trợ các hoạt động nguồ
         <target state="translated">Chỉ các độ phân giải tương ứng với tỉ lệ khung hình gốc</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Open in ColorSync Utility" xml:space="preserve">
+        <source>Open in ColorSync Utility</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Opted-out" xml:space="preserve">
         <source>Opted-out</source>
         <target state="translated">Đã từ chối</target>
@@ -5915,6 +5940,10 @@ Không phải tất cả màn hình đều hỗ trợ các hoạt động nguồ
       <trans-unit id="Other Apple display" xml:space="preserve">
         <source>Other Apple display</source>
         <target state="translated">Màn hình Apple khác</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Other Color Profile" xml:space="preserve">
+        <source>Other Color Profile</source>
         <note/>
       </trans-unit>
       <trans-unit id="Overview" xml:space="preserve">
@@ -6378,6 +6407,10 @@ Không phải tất cả màn hình đều hỗ trợ các hoạt động nguồ
         <target state="translated">Kết nối lại tất cả màn hình đã ngắt kết nối được phát hiện khi khởi động. Hỗ trợ nếu một màn hình bị ngắt kết nối do lỗi ứng dụng hoặc buộc phải thoát đột ngột.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Reconnect all remaining connected virtual screens after disconnecting one" xml:space="preserve">
+        <source>Reconnect all remaining connected virtual screens after disconnecting one</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Reconnect connected virtual screens" xml:space="preserve">
         <source>Reconnect connected virtual screens</source>
         <target state="translated">Kết nối lại màn hình ảo đã kết nối trước đó</target>
@@ -6519,6 +6552,10 @@ Không phải tất cả màn hình đều hỗ trợ các hoạt động nguồ
         <target state="translated">Xóa Tất Cả Kích Hoạt</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Remove All Factory Profiles" xml:space="preserve">
+        <source>Remove All Factory Profiles</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Remove Color Profiles" xml:space="preserve">
         <source>Remove Color Profiles</source>
         <target state="translated">Xóa Hồ sơ Màu</target>
@@ -6526,6 +6563,10 @@ Không phải tất cả màn hình đều hỗ trợ các hoạt động nguồ
       </trans-unit>
       <trans-unit id="Remove Custom Feature" xml:space="preserve">
         <source>Remove Custom Feature</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Remove Factory Color Profiles" xml:space="preserve">
+        <source>Remove Factory Color Profiles</source>
         <note/>
       </trans-unit>
       <trans-unit id="Remove Factory Color Profiles?" xml:space="preserve">
@@ -7561,6 +7602,10 @@ Việc xóa tất cả các kích hoạt sẽ giúp bạn bắt đầu lại t�
         <target state="translated">Hiển thị tiêu đề khi chỉ có một thiết bị hiện diện</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Show in Finder" xml:space="preserve">
+        <source>Show in Finder</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Show in the app menu" xml:space="preserve">
         <source>Show in the app menu</source>
         <target state="translated">Hiển thị trong menu ứng dụng</target>
@@ -7605,9 +7650,17 @@ Việc xóa tất cả các kích hoạt sẽ giúp bạn bắt đầu lại t�
         <target state="translated">Hiển thị nhãn cho các thanh trượt</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Show slider labels and values" xml:space="preserve">
+        <source>Show slider labels and values</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show slider markers only during knob adjustment" xml:space="preserve">
+        <source>Show slider markers only during knob adjustment</source>
+        <target state="translated">Hiển thị chỉ dấu cho thanh trượt chỉ khi kéo</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Show slider markers only while dragging the knob" xml:space="preserve">
         <source>Show slider markers only while dragging the knob</source>
-        <target state="translated">Hiển thị chỉ dấu cho thanh trượt chỉ khi kéo</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show subsliders for combined brightness control" xml:space="preserve">
@@ -7623,6 +7676,11 @@ Việc xóa tất cả các kích hoạt sẽ giúp bạn bắt đầu lại t�
       <trans-unit id="Shows all displays previously detected by the app. Allows some configuration changes even when a display is offline." xml:space="preserve">
         <source>Shows all displays previously detected by the app. Allows some configuration changes even when a display is offline.</source>
         <target state="translated">Hiển thị tất cả các màn hình đã được phát hiện trước bởi ứng dụng. Cho phép một số thay đổi cấu hình ngay cả khi một màn hình không hoạt động.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Shows an upward (XDR/HDR upscaling) or downward (software dimming) pointing icon in the OSD when extra dimming or brightness upscaling is happening via software adjustments." xml:space="preserve">
+        <source>Shows an upward (XDR/HDR upscaling) or downward (software dimming) pointing icon in the OSD when extra dimming or brightness upscaling is happening via software adjustments.</source>
+        <target state="translated">Hiển thị một biểu tượng hướng lên (tăng cường XDR/HDR) hoặc hướng xuống (làm tối phần mềm) trong OSD khi có điều chỉnh thêm độ tối hoặc tăng cường độ sáng thông qua điều chỉnh phần mềm.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Sidecar Configuration" xml:space="preserve">
@@ -7780,8 +7838,8 @@ Việc xóa tất cả các kích hoạt sẽ giúp bạn bắt đầu lại t�
         <target state="translated">Chỉ định điều gì sẽ xảy ra khi nút bật/tắt của menu ứng dụng được nhấn. Không phải tất cả tùy chọn có thể hợp lệ cho màn hình.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Standard Framebuffer" xml:space="preserve">
-        <source>Standard Framebuffer</source>
+      <trans-unit id="Standard Appearance" xml:space="preserve">
+        <source>Standard Appearance</source>
         <target state="translated">Bộ đệm khung hình Tiêu chuẩn</target>
         <note/>
       </trans-unit>
@@ -7998,6 +8056,10 @@ Việc xóa tất cả các kích hoạt sẽ giúp bạn bắt đầu lại t�
       <trans-unit id="Synchronize value changes (delta) from sources to targets. This helps keep initial value differences between source and target (until minimum or maximum is reached). When this is disabled, absolute values are synced." xml:space="preserve">
         <source>Synchronize value changes (delta) from sources to targets. This helps keep initial value differences between source and target (until minimum or maximum is reached). When this is disabled, absolute values are synced.</source>
         <target state="translated">Đồng bộ hóa thay đổi giá trị (delta) từ nguồn đến mục tiêu. Điều này giúp giữ sự khác biệt giá trị ban đầu giữa nguồn và mục tiêu (cho đến khi giá trị tối thiểu hoặc tối đa được đạt). Khi tính năng này bị vô hiệu hóa, các giá trị tuyệt đối được đồng bộ hóa.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="System Color Profile" xml:space="preserve">
+        <source>System Color Profile</source>
         <note/>
       </trans-unit>
       <trans-unit id="System Colors" xml:space="preserve">
@@ -8408,6 +8470,10 @@ Xin lưu ý rằng không phải tất cả các màn hình đều hỗ trợ c�
         <target state="translated">Điều này có thể không hoạt động đúng với tất cả các màn hình (đặc biệt là những màn hình có PPI thấp) và có thể tạo ra một độ phân giải mặc định LoDPI được nhân đôi điểm ảnh trên Mac Intel.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="This might serve as a workaround for the stream/PIP confusion issue exhibited by some configurations when multiple virtual screens are connected." xml:space="preserve">
+        <source>This might serve as a workaround for the stream/PIP confusion issue exhibited by some configurations when multiple virtual screens are connected.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="This name is used by macOS system-wide." xml:space="preserve">
         <source>This name is used by macOS system-wide.</source>
         <target state="translated">Tên này được dùng trên toàn bộ hệ thống macOS.</target>
@@ -8418,9 +8484,13 @@ Xin lưu ý rằng không phải tất cả các màn hình đều hỗ trợ c�
         <target state="translated">Hoạt động này sẽ ngắt kết nối và kết nối lại tất cả các màn hình ảo đang được kết nối hiện tại!</target>
         <note/>
       </trans-unit>
+      <trans-unit id="This provides a cleaner look when sliders are not in active use." xml:space="preserve">
+        <source>This provides a cleaner look when sliders are not in active use.</source>
+        <target state="translated">Điều này tạo ra một giao diện gọn gàng hơn khi thanh trượt không được sử dụng.</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="This provides a cleaner look when the slider is not in active use." xml:space="preserve">
         <source>This provides a cleaner look when the slider is not in active use.</source>
-        <target state="translated">Điều này tạo ra một giao diện gọn gàng hơn khi thanh trượt không được sử dụng.</target>
         <note/>
       </trans-unit>
       <trans-unit id="This resolution is used as default (as HiDPI if available) when the display is included in a new layout." xml:space="preserve">
@@ -9097,8 +9167,16 @@ Bạn có thể bỏ qua thông báo này - trong trường hợp này, các tha
         <target state="translated">Dùng không để vô hiệu hóa hiệu ứng chuyển động.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="User Color Profile" xml:space="preserve">
+        <source>User Color Profile</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="VCP Code" xml:space="preserve">
         <source>VCP Code</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="VCP: 0x%@ parsed as: `%@`" xml:space="preserve">
+        <source>VCP: 0x%1$@ parsed as: `%2$@`</source>
         <note/>
       </trans-unit>
       <trans-unit id="VIRTUAL" xml:space="preserve">

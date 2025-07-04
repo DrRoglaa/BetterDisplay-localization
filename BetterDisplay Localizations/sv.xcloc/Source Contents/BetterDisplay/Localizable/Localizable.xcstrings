@@ -142,6 +142,9 @@
     "%@ Negotiated mode may differ from the listed parameters. Check visuals or display OSD info." : {
 
     },
+    "%@ nits" : {
+
+    },
     "%@ NTSC (or other unexposed) refresh rates may not persist after mode-changes unless forced by %@ Configuration Protection." : {
       "localizations" : {
         "en" : {
@@ -1274,9 +1277,6 @@
     "Bottom → Right - Corner" : {
 
     },
-    "Briefly show an upward (XDR/HDR upscaling) or downward (software dimming) pointing icon in the OSD when extra dimming or brightness upscaling is happening via software adjustments." : {
-
-    },
     "Briefly show Dock icon on startup" : {
 
     },
@@ -1289,10 +1289,10 @@
     "Brightness" : {
 
     },
-    "Brightness (Combined, Metal Upscaling)" : {
+    "Brightness (Combined, Metal)" : {
 
     },
-    "Brightness (Combined, Software Upscaling)" : {
+    "Brightness (Combined, Upscaling)" : {
 
     },
     "Brightness (Combined)" : {
@@ -1811,7 +1811,7 @@
     "Current native resolution" : {
 
     },
-    "Current resolution (width x height) is shown as text inside when enabled." : {
+    "Current resolution (width x height) is shown as text when enabled." : {
 
     },
     "Current system display name" : {
@@ -2390,7 +2390,7 @@
     "Display status" : {
 
     },
-    "Display the brightness level in nits on the brightness OSD icon for native XDR upscaling" : {
+    "Display the brightness level in nits on the brightness OSD for native XDR upscaling" : {
 
     },
     "Display to match" : {
@@ -2406,6 +2406,12 @@
 
     },
     "Displays And Virtual Screens" : {
+
+    },
+    "Displays labels for sliders to help you quickly identify their function." : {
+
+    },
+    "Displays slider labels and their current values for easier identification and greater precision." : {
 
     },
     "Displays that were added to the list previously are shown even when not detected." : {
@@ -2714,6 +2720,12 @@
     "F14/F15 stands for Scroll Lock and Pause on PC keyboards, brightness keys on some Logitech keyboards." : {
 
     },
+    "Factory Color Profile" : {
+
+    },
+    "Factory color profiles are automatically created by the system whenever a display is connected. Over time, these profiles can accumulate.\n\nRemoving them is safe—macOS will recreate any necessary profiles the next time the display is connected." : {
+
+    },
     "Failed" : {
 
     },
@@ -2760,9 +2772,6 @@
 
     },
     "For controls that trigger a feature or functionality." : {
-
-    },
-    "For easier identification of slider functionality." : {
 
     },
     "Force support for color table adjustments" : {
@@ -2891,7 +2900,7 @@
     "GPU Dithering" : {
 
     },
-    "Grayscale Framebuffer" : {
+    "Grayscale Appearance" : {
 
     },
     "Green Black Level (Hardware)" : {
@@ -2987,6 +2996,9 @@
     "Hidden" : {
 
     },
+    "Hide accessibility permission and licensing related warnings in the app menu." : {
+
+    },
     "Hide all full screen streams" : {
 
     },
@@ -3000,6 +3012,9 @@
 
     },
     "Hide Stream" : {
+
+    },
+    "Hide warnings in the button bar" : {
 
     },
     "HiDPI" : {
@@ -3239,10 +3254,10 @@
     "Invert DDC value scale" : {
 
     },
-    "Inverted Framebuffer" : {
+    "Inverted Appearance" : {
 
     },
-    "Inverted Grayscale Framebuffer" : {
+    "Inverted Grayscale Appearance" : {
 
     },
     "Invoke URL" : {
@@ -3920,6 +3935,9 @@
     "Only resolutions that match native aspect ratio" : {
 
     },
+    "Open in ColorSync Utility" : {
+
+    },
     "Opted-out" : {
 
     },
@@ -3936,6 +3954,9 @@
 
     },
     "Other Apple display" : {
+
+    },
+    "Other Color Profile" : {
 
     },
     "Overview" : {
@@ -4234,6 +4255,9 @@
     "Reconnect all disconnected displays that are detected on startup. Helps if a display is stranded as disconnected in case of an app crash or forced quit." : {
 
     },
+    "Reconnect all remaining connected virtual screens after disconnecting one" : {
+
+    },
     "Reconnect connected virtual screens" : {
 
     },
@@ -4330,10 +4354,16 @@
     "Remove All Activations" : {
 
     },
+    "Remove All Factory Profiles" : {
+
+    },
     "Remove Color Profiles" : {
 
     },
     "Remove Custom Feature" : {
+
+    },
+    "Remove Factory Color Profiles" : {
 
     },
     "Remove Factory Color Profiles?" : {
@@ -4983,6 +5013,9 @@
     "Show header when only one device is present" : {
 
     },
+    "Show in Finder" : {
+
+    },
     "Show in the app menu" : {
 
     },
@@ -5028,6 +5061,12 @@
     "Show slider labels" : {
 
     },
+    "Show slider labels and values" : {
+
+    },
+    "Show slider markers only during knob adjustment" : {
+
+    },
     "Show slider markers only while dragging the knob" : {
 
     },
@@ -5038,6 +5077,9 @@
 
     },
     "Shows all displays previously detected by the app. Allows some configuration changes even when a display is offline." : {
+
+    },
+    "Shows an upward (XDR/HDR upscaling) or downward (software dimming) pointing icon in the OSD when extra dimming or brightness upscaling is happening via software adjustments." : {
 
     },
     "Sidecar Configuration" : {
@@ -5139,7 +5181,7 @@
     "Specify what should happen when the app menu on/off switch is pressed. Not all options may be valid for the display." : {
 
     },
-    "Standard Framebuffer" : {
+    "Standard Appearance" : {
 
     },
     "Standard step size" : {
@@ -5272,6 +5314,9 @@
 
     },
     "Synchronize value changes (delta) from sources to targets. This helps keep initial value differences between source and target (until minimum or maximum is reached). When this is disabled, absolute values are synced." : {
+
+    },
+    "System Color Profile" : {
 
     },
     "System Colors" : {
@@ -5512,10 +5557,16 @@
     "This might not work properly with all displays (especially low PPI ones) and might create a pixel-doubled LoDPI default resolution instead on Intel Macs." : {
 
     },
+    "This might serve as a workaround for the stream/PIP confusion issue exhibited by some configurations when multiple virtual screens are connected." : {
+
+    },
     "This name is used by macOS system-wide." : {
 
     },
     "This operation will disconnect and reconnect all currently connected virtual screens!" : {
+
+    },
+    "This provides a cleaner look when sliders are not in active use." : {
 
     },
     "This provides a cleaner look when the slider is not in active use." : {
@@ -5929,6 +5980,9 @@
     "Use zero to disable transition animation." : {
 
     },
+    "User Color Profile" : {
+
+    },
     "UUID" : {
 
     },
@@ -5955,6 +6009,16 @@
     },
     "VCP Code" : {
 
+    },
+    "VCP: 0x%@ parsed as: `%@`" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "VCP: 0x%1$@ parsed as: `%2$@`"
+          }
+        }
+      }
     },
     "Vendor and model ID" : {
 
